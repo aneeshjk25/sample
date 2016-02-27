@@ -1,3 +1,7 @@
-define(['angular-ui-router'],function(){
+define(['angular-ui-router',
+		'restangular',
+		'bootstrap',
+		'angular-bootstrap',
+		'underscore'],function(){
 
 })

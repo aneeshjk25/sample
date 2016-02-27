@@ -24,6 +24,8 @@
     "angular-bootstrap": "~1.2.0",
     "bootstrap": "~3.3.6",
     "requirejs": "~2.1.22",
-    "ui-router": "~0.2.18"
+    "ui-router": "~0.2.18",
+    "restangular": "~1.5.2",
+    "underscore": "~1.8.3"
   }
 }
