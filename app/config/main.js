@@ -1,5 +1,6 @@
 require.config({
 	baseUrl : '.',
+	waitSeconds : 0,
 	paths : {
 		jQuery : 'bower_components/jquery/dist/jquery',
 		angular : 'bower_components/angular/angular',
@@ -21,7 +22,8 @@ require.config({
 		"angular-ui-router" : { dependencies : ['angular'] },
 		libs : { dependencies : ['angular'] },
 		sample  : { dependencies : ['jQuery' , 'angular' ]}
-	}
+	},
+	priority : ['angular']
 })
 
 require(
