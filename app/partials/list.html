@@ -1,5 +1,12 @@
 <div>
 	<ul class="list-group">
-		<li class="list-group-item" ng-repeat="todo in todos">{{todo.title}}</li>
+		<li class="list-group-item " ng-class="todo.completed ? 'active' : 'bg-default' " ng-repeat="todo in todos">
+			<input type="checkbox" name="completed" ng-model="todo.completed" ng-change="toggleComplete(todo)">
+			<span ng-show="todo.completed"><s>{{todo.title}}</s></span>
+			<span ng-show="!todo.completed">{{todo.title}}</span>
+			<btn class="btn btn-primary" ui-sref="edit({ id : todo.id })">EDIT</btn>
+			<btn class="btn btn-danger" ng-click="delete(todo,$index)">DELETE</btn>
+		</li>
 	</ul>
+	<a class="btn btn-primary" ui-sref="add">ADD</a>
 </div>
