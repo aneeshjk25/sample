@@ -2,15 +2,15 @@ require.config({
 	baseUrl : '.',
 	waitSeconds : 0,
 	paths : {
-		jQuery : 'bower_components/jquery/dist/jquery',
-		angular : 'bower_components/angular/angular',
-		bootstrap : 'bower_components/bootstrap/dist/js/bootstrap',
-		"angular-bootstrap" : 'bower_components/angular-bootstrap/ui-bootstrap',
-		"angular-ui-router" : 'bower_components/ui-router/release/angular-ui-router',
-		'underscore' : 'bower_components/underscore/underscore',
-		'restangular' : 'bower_components/restangular/dist/restangular',
-		libs : 'app/config/libs',
-		sample : 'app/config/app'
+		jQuery : '/jquery/dist/jquery',
+		angular : '/angular/angular',
+		bootstrap : '/bootstrap/dist/js/bootstrap',
+		"angular-bootstrap" : '/angular-bootstrap/ui-bootstrap',
+		"angular-ui-router" : '/ui-router/release/angular-ui-router',
+		'underscore' : '/underscore/underscore',
+		'restangular' : '/restangular/dist/restangular',
+		libs : 'config/libs',
+		sample : 'config/app'
 	},
 	shim : {
 		jQuery : { exports : 'jQuery'},

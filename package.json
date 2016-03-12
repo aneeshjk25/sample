@@ -1,0 +1,20 @@
+{
+  "name": "sample-todo",
+  "version": "1.0.0",
+  "description": "TODO list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/aneesh_25/sample.git"
+  },
+  "author": "Aneesh Kallarakkal",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/aneesh_25/sample#readme",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "express": "^4.13.4"
+  }
+}
